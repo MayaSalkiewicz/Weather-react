@@ -1,0 +1,57 @@
+form {
+  display: flex;
+  margin: 20px 30px;
+  height: 5vh;
+}
+
+.Search-input {
+  width: 70%;
+  height: 45px;
+  margin-right: 20px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 10px black;
+  padding-left: 20px;
+}
+
+.Submit-input {
+  width: 20%;
+  height: 45px;
+  color: white;
+  border: 1px solid rgb(49, 97, 192);
+  border-radius: 25px;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  background-color: rgb(49, 97, 192);
+  transition: background-color 0.3s;
+}
+
+.Submit-input:hover {
+  background-color: rgb(64 123 239);
+}
+
+.Weather-today {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Today-img {
+  width: 150px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0 auto;
+}
+
+.Description {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.Today-weather-list {
+  font-size: 22px;
+  list-style: none;
+  text-align: left;
+  line-height: 1.5em;
+}
