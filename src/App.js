@@ -4,18 +4,18 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <div className="App-container">
+      <div className="Weather-app">
         <div className="Weather-container">
           <Weather city="Paris" />
-          <div className="Sign">
-            <p>
-              <a href="https://github.com/MayaSalkiewicz/Weather-react">
-                Open-source-code
-              </a>
-              , by Maja Salkiewicz
-            </p>
-          </div>
         </div>
+        <span className="Sign">
+          <p>
+            <a href="https://github.com/MayaSalkiewicz/Weather-react">
+              Open-source-code
+            </a>
+            , by Maja Salkiewicz
+          </p>
+        </span>
       </div>
     </div>
   );

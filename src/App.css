@@ -1,7 +1,10 @@
-.App-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.App {
   background-image: url(/src/images/backgroundview.jpeg);
   background-position: center;
   background-size: cover;
@@ -9,7 +12,15 @@
   font-size: calc(10px + 2vmin);
 }
 
+.Weather-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .Weather-container {
+  margin-top: 80px;
   padding: 10px 10px;
   width: 800px;
   height: 400px;
@@ -20,5 +31,5 @@
 }
 
 .Sign {
-  margin-top: 130px;
+  margin: 10px auto;
 }
