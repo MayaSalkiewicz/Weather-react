@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="App-container">
         <div className="Weather-container">
-          <Weather />
+          <Weather city="Paris" />
           <div className="Sign">
             <p>
               <a href="https://github.com/MayaSalkiewicz/Weather-react">

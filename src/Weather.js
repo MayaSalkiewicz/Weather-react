@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Weather.css";
 
 export default function Weather(props) {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState(props.city);
   const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState(null);
 
@@ -72,6 +72,13 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    return <div>{form}</div>;
+    return (
+      <div>
+        {form}
+        <p>
+          Write a name of the City above to see Weatherforecast for today :)
+        </p>
+      </div>
+    );
   }
 }
