@@ -75,7 +75,7 @@ export default function Weather(props) {
     return (
       <div>
         {form}
-        <p>
+        <p className="Write-info">
           Write a name of the City above to see Weatherforecast for today :)
         </p>
       </div>
