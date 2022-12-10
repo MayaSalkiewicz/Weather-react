@@ -1,3 +1,13 @@
+.Weather {
+  margin: 80px auto;
+  padding: 20px 20px;
+  max-width: 800px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 20px black;
+  background: rgba(255, 255, 255, 0.6);
+}
+
 form {
   display: flex;
   margin: 20px 30px;
@@ -29,27 +39,37 @@ form {
 .Submit-input:hover {
   background-color: rgb(64 123 239);
 }
-
-.Weather-today {
+.TodayDate {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+.PicturePart {
+  justify-content: center;
   align-items: center;
 }
 
-.Today-img {
-  width: 150px;
-  height: auto;
+.City {
+  font-size: 35px;
   display: flex;
-  justify-content: flex-start;
-  margin-top: 0 auto;
+  justify-content: center;
+}
+
+.Today-img {
+  margin-left: 75px;
+  width: 190px;
+  height: auto;
 }
 
 .Description {
+  display: flex;
+  justify-content: center;
   font-size: 18px;
-  margin-top: 0;
 }
 
 .Today-weather-list {
+  padding-top: 80px;
   font-size: 22px;
   list-style: none;
   text-align: left;

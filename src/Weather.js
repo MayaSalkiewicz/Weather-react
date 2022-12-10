@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./Weather.css";
 
@@ -38,7 +39,7 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div>
+      <div className="Weather">
         <form onSubmit={showCity}>
           <input
             onChange={updateCity}
