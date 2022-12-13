@@ -46,6 +46,7 @@ form {
 }
 
 .PicturePart {
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -54,12 +55,6 @@ form {
   font-size: 35px;
   display: flex;
   justify-content: center;
-}
-
-.Today-img {
-  margin-left: 75px;
-  width: 190px;
-  height: auto;
 }
 
 .Description {

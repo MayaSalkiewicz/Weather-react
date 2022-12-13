@@ -2,6 +2,7 @@ import React from "react";
 
 import GenerateDate from "./GenerateDate";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
@@ -22,10 +23,8 @@ export default function WeatherInfo(props) {
           </div>
           <div className="col-6">
             <ul className="Today-weather-list">
-              <li>
-                <strong>Temperature: </strong>
-                {props.data.temperature} °C
-              </li>
+              <WeatherTemperature celsius={props.data.temperature} />
+
               <li>
                 <strong>Humidity: </strong> {props.data.humidity} %
               </li>
