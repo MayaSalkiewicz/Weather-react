@@ -1,6 +1,7 @@
 import React from "react";
 
 import GenerateDate from "./GenerateDate";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
@@ -13,11 +14,7 @@ export default function WeatherInfo(props) {
           <div className="col-6">
             <div className="PicturePart">
               <div className="City"> {props.data.city}</div>
-              <img
-                className="Today-img"
-                src={`http://openweathermap.org/img/wn/${props.data.icon}@2x.png`}
-                alt=""
-              />
+              <WeatherIcon code={props.data.icon} />
               <p className="Description">
                 Description: {props.data.description}
               </p>
