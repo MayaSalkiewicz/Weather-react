@@ -7,15 +7,15 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Paris" />
+        <span className="Sign">
+          <p>
+            <a href="https://github.com/MayaSalkiewicz/Weather-react">
+              Open-source-code
+            </a>
+            , by Maja Salkiewicz
+          </p>
+        </span>
       </div>
-      <span className="Sign">
-        <p>
-          <a href="https://github.com/MayaSalkiewicz/Weather-react">
-            Open-source-code
-          </a>
-          , by Maja Salkiewicz
-        </p>
-      </span>
     </div>
   );
 }
