@@ -21,8 +21,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
       city: response.data.city,
-      lon: response.data.coordinates.longitude,
-      lat: response.data.coordinates.latitude,
+      cooridnates: response.data.coordinates,
     });
   }
 
@@ -49,15 +48,16 @@ export default function Weather(props) {
             onChange={updateCity}
             className="Search-input"
             type="Search"
-            placeholder=" Type a city..."
+            placeholder=" Enter a city..."
           />
           <input className="Submit-input" type="submit" value="Check" />
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast forecastData={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
     Search();
+    return "Loading ...";
   }
 }
