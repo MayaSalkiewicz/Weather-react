@@ -21,7 +21,7 @@ export default function Weather(props) {
       humidity: response.data.temperature.humidity,
       wind: response.data.wind.speed,
       city: response.data.city,
-      cooridnates: response.data.coordinates,
+      coordinates: response.data.coordinates,
     });
   }
 
