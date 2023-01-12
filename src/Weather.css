@@ -28,16 +28,16 @@ form {
   width: 20%;
   height: 45px;
   color: white;
-  border: 1px solid rgb(49, 97, 192);
+  border: 1px solid rgb(173, 97, 110);
   border-radius: 25px;
   box-shadow: 0 0 10px black;
   cursor: pointer;
-  background-color: rgb(49, 97, 192);
+  background-color: rgb(173, 97, 110);
   transition: background-color 0.3s;
 }
 
 .Submit-input:hover {
-  background-color: rgb(64 123 239);
+  background-color: rgb(154, 92, 103);
 }
 .TodayDate {
   display: flex;

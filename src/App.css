@@ -5,3 +5,13 @@
   height: 100vh;
   font-size: calc(10px + 2vmin);
 }
+
+.App a {
+  color: pink;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.App a:hover {
+  color: rgb(173, 97, 110);
+}
