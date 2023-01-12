@@ -7,11 +7,11 @@
 }
 
 .App a {
-  color: pink;
+  color: rgb(173, 97, 110);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 
 .App a:hover {
-  color: rgb(173, 97, 110);
+  color: pink;
 }

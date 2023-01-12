@@ -1,3 +1,8 @@
 .WeatherTemperature a {
+  color: rgb(173, 97, 110);
+  transition: all 150ms ease-in-out;
+}
+
+.WeatherTemperature a:hover {
   color: pink;
 }
