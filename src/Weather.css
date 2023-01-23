@@ -89,11 +89,12 @@ form {
   .Search-input {
     height: 35px;
     margin-right: 13px;
+    font-size: 13px;
   }
 
   .Submit-input {
     height: 35px;
-    width: 22%;
+    font-size: 13px;
   }
 
   .TodayDate {
