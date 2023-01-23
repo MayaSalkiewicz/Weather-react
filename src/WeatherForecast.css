@@ -6,3 +6,10 @@
 .temp-max {
   opacity: 0.5;
 }
+
+@media (max-width: 550px) {
+  .WeatherForecast {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
