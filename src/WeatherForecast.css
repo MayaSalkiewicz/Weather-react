@@ -11,5 +11,6 @@
   .WeatherForecast {
     margin-top: 10px;
     font-size: 15px;
+    padding: 0;
   }
 }
