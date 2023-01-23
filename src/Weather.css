@@ -64,7 +64,7 @@ form {
 
 .Today-weather-list {
   padding-top: 50px;
-  font-size: 22px;
+  font-size: 30px;
   list-style: none;
   text-align: left;
   line-height: 1.5em;
@@ -82,19 +82,20 @@ form {
   }
 
   form {
-    margin: 10px 5px;
+    margin: 10px 0;
     height: 3vh;
   }
 
   .Search-input {
     height: 35px;
-    margin-right: 13px;
+
     font-size: 13px;
   }
 
   .Submit-input {
     height: 35px;
     font-size: 13px;
+    text-align: center;
   }
 
   .TodayDate {
