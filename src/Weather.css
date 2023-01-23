@@ -11,7 +11,6 @@
 form {
   display: flex;
   margin: 20px 30px;
-  height: 5vh;
 }
 
 .Search-input {
@@ -78,12 +77,11 @@ form {
 
 @media (max-width: 550px) {
   .Weather {
-    padding: 10px 10px;
+    padding: 10px 5px;
   }
 
   form {
-    margin: 10px 0;
-    height: 3vh;
+    margin: 10px 5px;
   }
 
   .Search-input {
