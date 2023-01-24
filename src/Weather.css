@@ -83,6 +83,7 @@ form {
   .Search-input {
     height: 35px;
     font-size: 13px;
+    background: rgba(255, 192, 203, 0.3);
   }
 
   .Submit-input {
