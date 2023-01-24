@@ -43,15 +43,17 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <form onSubmit={showCity}>
-          <input
-            onChange={updateCity}
-            className="Search-input"
-            type="Search"
-            placeholder=" Enter a city..."
-          />
-          <input className="Submit-input" type="submit" value="Check" />
-        </form>
+        <div className="container">
+          <form onSubmit={showCity} className="row justify-content-around">
+            <input
+              onChange={updateCity}
+              className="Search-input col-8 "
+              type="Search"
+              placeholder=" Enter a city..."
+            />
+            <input className="Submit-input col-3" type="submit" value="Check" />
+          </form>
+        </div>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
